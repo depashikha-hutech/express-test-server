@@ -12,6 +12,9 @@ app.get('/user',(req,res)=>{
     res.send("welcome user");
 });
 app.get('/user/:userid',(req,res)=>{
-    res.send(req.parms)
+    res.send(req.parms);
 
+});
+app.get('/user/query',function(req,res){
+    
 });
